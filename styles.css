@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+    font-weight: 100;
+}
+
+h2 {
+    color: red;
+}
+
+.thisclass {
+    font-size: x-large;
+    color: black;
+}
+
+a:hover {
+    color: greenyellow
+}
+
+.thisclass {
+    font-size: x-large;
+    color: purple
+}
+
+#special {
+    font-style: oblique;
+}
