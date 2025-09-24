@@ -21,6 +21,18 @@ a:hover {
     color: purple
 }
 
+.funfact {
+    width: 1%;
+    color: coral;
+    font-size: large;
+    text-decoration: line-through;
+    background-color: aqua;
+}
+
 #special {
     font-style: oblique;
+}
+
+#speicaldos {
+    font-style: italic;
 }
