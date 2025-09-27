@@ -1,17 +1,51 @@
-<head>
-         <link href="styles.css" rel="stylesheet">
-         <title>Luis Morales</title>
+head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Me - Luis Morales</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Reveal hidden content when button is clicked
+        function showMore() {
+            document.getElementById("more-info").style.display = "block";
+            document.getElementById("reveal-btn").style.display = "none";
+        }
+    </script>
 </head>
 <body>
+    <header>
         <h1 class="thisclass">Luis Morales</h1>
-     <h2 class="thisclass">Electrical Engineering Student</h2>
+        <h2 class="thisclass">Major: Electrical Engineering | Minor: Computer Science</h2>
+    </header>
 
-     <p> Fun Fact: I'm a junior at 18 due to doing dual enrollment in high school.</p>
+    <main>
+        <!-- Button -->
+        <button id="reveal-btn" onclick="showMore()">Click it to know more about Luis Morales</button>
+        
+        <!-- Hidden section -->
+        <section id="more-info" style="display:none;">
+            <p> Some of my favorite things:</p>
+            <ul>
+                <li>Energy Drink: Ghost Energy - Sour Pink Lemonade </li>
+                <li>Video Game: Gears of War 3</li>
+                <li>TV Show: Dexter or Suits</li>
+                <li>Hobby: Running or Napping</li>
+            </ul>
 
-     <p> I'm a CS Minor as well!!</p>
+            <p>Fun Fact: I did dual-enrollment during high school, graduating with my AS in Engineering (Magna Cum Laude).</p>
+            <p>Fun Fact #2: I'm a recipient of the UTRGV Presidential Scholarship.</p>
 
-     <table></table>
+            <!-- Image -->
+            <figure>
+                <img src="Images/1000023470 (2).jpg" alt="Me and my Friends at graduation" width="500" height="400">
+                <figcaption>Me and my friends at graduation.</figcaption>
+            </figure>
+
+            <p id="special">Long Term Goal: Graduate at 20-21 years old with a 3.5+ GPA.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Luis Morales | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
-
-<p id="special">I want to graduate by Spring 2027 with Summa Cum Laude Honors.</p>
